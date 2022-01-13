@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    margin: 10px 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    background-color: #ea8821;
+    border-radius: 10px;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white; 
+}
+.icon{
+    color: #ea8821;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
